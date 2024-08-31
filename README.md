@@ -6,7 +6,7 @@
 <br>
 
 > [!IMPORTANT]
-> In this first version, NSS is available only in French (logs, comments in the script, etc.). 
+>In this first version, NSS is available only in French (logs, comments in the script,report, etc, are in French).
 <br>
 
 Not Need Speco** is a PowerShell script for auditing password quality in your AD DS !
@@ -79,7 +79,7 @@ Please note that the password is currently stored in plain text in the script ðŸ
 
 https://github.com/user-attachments/assets/576b30bd-78aa-4ee3-af19-97e0d124b06b
 
-# Repport 
+# Report 
 > [!NOTE]
 > In the next version, the report will be available in English.
 
