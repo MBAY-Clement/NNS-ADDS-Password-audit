@@ -5,6 +5,10 @@
 </p>
 <br>
 
+> [!IMPORTANT]
+> In this first version, NSS is available only in French (logs, comments in the script, etc.). 
+<br>
+
 Not Need Speco** is a PowerShell script for auditing password quality in your AD DS !
 
 The purpose of this script is to audit the password quality of the users in your Active Directory. Regularly auditing the passwords in your Active Directory is an essential practice for strengthening the security of your environment. By identifying weak, common, or compromised passwords, you can prevent unauthorized access and significantly reduce the risk of system compromise. Additionally, this approach helps raise awareness among users about the importance of choosing strong passwords, thereby contributing to overall better security hygiene.
@@ -81,6 +85,7 @@ https://github.com/user-attachments/assets/576b30bd-78aa-4ee3-af19-97e0d124b06b
 
 <br>
 This script generates a report titled 'Rapport Audit Password.
+
 
 You can find a demo report here: [mbay.fr/nss](https://mbay.fr/nss)
 
