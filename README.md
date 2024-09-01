@@ -95,6 +95,8 @@ https://github.com/user-attachments/assets/576b30bd-78aa-4ee3-af19-97e0d124b06b
 
 <br>
 This script generates a report titled 'Rapport Audit Password.
+In this first version of the script, we recommend opening the report with an internet connection. This report was generated with the help of Bootstrap.
+<br><br>
 
 
 You can find a demo report here: [mbay.fr/nns](https://mbay.fr/nns)
