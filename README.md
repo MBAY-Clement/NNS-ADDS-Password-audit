@@ -1,7 +1,7 @@
 # NSS - ADDS Password Quality Control
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/08d71f9e-65ed-412a-ae9b-55357ce99028" alt="NNS-logo"/>
+  <img src="https://github.com/user-attachments/assets/4c344406-a671-462a-8367-26ea2b85abac" alt="NNS-logo"/>
 </p>
 <br>
 
