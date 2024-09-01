@@ -7,13 +7,17 @@
 
 > [!IMPORTANT]
 >In this first version, NSS is available only in French (logs, comments in the script,report, etc, are in French).
+<div >
+    <img src="https://camo.githubusercontent.com/946082f2606913f2cbdf6dc3fdaf466ebee3dfdd27d0b171d7ed8fd34dc2718a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f506f7765725368656c6c2d3325323025374325323034253230253743253230352d3030303046462e7376673f6c6f676f3d506f7765725368656c6c" alt="PowerShell 3 | 4 | 5" data-canonical-src="https://img.shields.io/badge/PowerShell-3%20%7C%204%20%7C%205-0000FF.svg?logo=PowerShell">
+    <img src="https://camo.githubusercontent.com/fa00540bee7cf28bb96d38201d5baacedf8fcd5a7f41388541ed4748170811d2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f57696e646f77732532305365727665722d323030382532305232253230253743253230323031322532305232253230253743253230323031362532302537432532303230313925323025374325323032303232253743253230323032352d3030376262382e7376673f6c6f676f3d57696e646f77732532303131" alt="Windows Server 2008 R2 | 2012 R2 | 2016 | 2019 | 2022 | 2025" data-canonical-src="https://img.shields.io/badge/Windows%20Server-2008%20R2%20%7C%202012%20R2%20%7C%202016%20%7C%202019%20%7C%202022%7C%202025-007bb8.svg?logo=Windows%2011">
+</div>
 <br>
 
-Not Need Speco** is a PowerShell script for auditing password quality in your AD DS !
+**Not Need Speco**** is a PowerShell script for auditing password quality in your AD DS !
 
 The purpose of this script is to audit the password quality of the users in your Active Directory. Regularly auditing the passwords in your Active Directory is an essential practice for strengthening the security of your environment. By identifying weak, common, or compromised passwords, you can prevent unauthorized access and significantly reduce the risk of system compromise. Additionally, this approach helps raise awareness among users about the importance of choosing strong passwords, thereby contributing to overall better security hygiene.
 
-# What it can do ?
+# 💡 What it can do ?
 
 The script in its first version allows you to:
 
@@ -26,7 +30,7 @@ In the "Raw Report" button on the homepage, you will find additional audit resul
 By default, the audit only runs on active accounts in your AD. However, you can add an option to also scan disabled accounts.
 
 
-# Script Structure
+# 📚 Script Structure
 
 This script is divided into several "sub-scripts" and folders. It is crucial not to modify the directory structure or file names. Once the configuration is complete (see below), the only script to run is `1-main.ps1`.
 
@@ -48,7 +52,7 @@ Explanation of Each Script/Folder :
 **`wordlist.txt`**: This file is used to audit and determine if accounts have weak or easily guessable passwords. In the homepage menu, you will find a section called "Find in Wordlist" which lists all accounts with passwords found in this file. You are free to populate this file with passwords of your choice (you can find wordlists on this site: [Weak Pass](https://weakpass.com/)). Note that the larger this file is (i.e., the more passwords it contains), the longer the audit will take.
 
 
-# Prerequisites and Constraints
+# 🚨 Prerequisites and Constraints
 
 Here are the prerequisites for running the script:
 
@@ -56,7 +60,13 @@ Here are the prerequisites for running the script:
 - It is mandatory to run the script with an AD account that has replication rights and access to the NTDS of your AD.
 - We strongly recommend opening the final report (HTML file) on a computer with internet access (a report not requiring internet access will be created soon).
 
-# First launch
+This script works with the help of these Powershell modules :
+
+- [ActiveDirectory](https://learn.microsoft.com/en-us/powershell/module/activedirectory/?view=windowsserver2022-ps)
+- [DSInternals](https://github.com/MichaelGrafnetter/DSInternals)
+- [7Zip4Powershell](https://www.powershellgallery.com/packages/7Zip4Powershell/2.0.0)
+
+# 🚀 First launch
 
 > [!TIP]
 > You'll find at the end of this section a short tutorial video explaining this step.
@@ -79,7 +89,7 @@ Please note that the password is currently stored in plain text in the script �
 
 https://github.com/user-attachments/assets/576b30bd-78aa-4ee3-af19-97e0d124b06b
 
-# Report 
+# 📋 Report 
 > [!NOTE]
 > In the next version, the report will be available in English.
 
@@ -87,11 +97,11 @@ https://github.com/user-attachments/assets/576b30bd-78aa-4ee3-af19-97e0d124b06b
 This script generates a report titled 'Rapport Audit Password.
 
 
-You can find a demo report here: [mbay.fr/nss](https://mbay.fr/nss)
+You can find a demo report here: [mbay.fr/nns](https://mbay.fr/nns)
 
 ![image](https://github.com/user-attachments/assets/db1899f6-ed9a-4d84-ae94-546fb2e84e3d)
 
-# Future Goals for NNS
+# 📈 Future Goals for NNS
 
 The future goal of NNS is to grow. Here are the planned improvements:
 
@@ -102,13 +112,21 @@ The future goal of NNS is to grow. Here are the planned improvements:
 - English version.
 - ...
 
-# Disclaimer
+# ⚖️ Disclaimer
 
 We disclaim all responsibility for how you might use this script.
 
 This script was developed in response to a real need in the professional field. We do not claim to be programming experts, and this script was created with passion. We are aware that it can be significantly improved and optimized.
 
 This script is licensed under [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr).
+
+# Contact
+If you have any questions, suggestions, or feedback regarding this project, please feel free to reach out. 
+You can contact me through the following channels : 
+
+- Website : [mbay.fr](https://mbay.fr/)
+- Discord : mbayclement
+
 
 
 
