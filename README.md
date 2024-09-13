@@ -1,4 +1,4 @@
-# NSS - ADDS Password Quality Control
+# NNS - ADDS Password Quality Control
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/4c344406-a671-462a-8367-26ea2b85abac" alt="NNS-logo"/>
@@ -6,7 +6,7 @@
 <br>
 
 > [!IMPORTANT]
->In this first version, NSS is available only in French (logs, comments in the script,report, etc, are in French).
+>In this first version, NNS is available only in French (logs, comments in the script,report, etc, are in French).
 <div >
     <img src="https://camo.githubusercontent.com/946082f2606913f2cbdf6dc3fdaf466ebee3dfdd27d0b171d7ed8fd34dc2718a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f506f7765725368656c6c2d3325323025374325323034253230253743253230352d3030303046462e7376673f6c6f676f3d506f7765725368656c6c" alt="PowerShell 3 | 4 | 5" data-canonical-src="https://img.shields.io/badge/PowerShell-3%20%7C%204%20%7C%205-0000FF.svg?logo=PowerShell">
     <img src="https://camo.githubusercontent.com/fa00540bee7cf28bb96d38201d5baacedf8fcd5a7f41388541ed4748170811d2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f57696e646f77732532305365727665722d323030382532305232253230253743253230323031322532305232253230253743253230323031362532302537432532303230313925323025374325323032303232253743253230323032352d3030376262382e7376673f6c6f676f3d57696e646f77732532303131" alt="Windows Server 2008 R2 | 2012 R2 | 2016 | 2019 | 2022 | 2025" data-canonical-src="https://img.shields.io/badge/Windows%20Server-2008%20R2%20%7C%202012%20R2%20%7C%202016%20%7C%202019%20%7C%202022%7C%202025-007bb8.svg?logo=Windows%2011">
@@ -87,7 +87,9 @@ In the file `6-export-zip.ps1`, on line 37, we recommend entering the desired pa
 Please note that the password is currently stored in plain text in the script 🫨.
 <br>
 
-https://github.com/user-attachments/assets/576b30bd-78aa-4ee3-af19-97e0d124b06b
+
+https://github.com/user-attachments/assets/897b947a-4671-466d-a94d-f7a1a3007d1c
+
 
 # 📋 Report 
 > [!NOTE]
